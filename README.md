@@ -35,7 +35,7 @@ Outputs a markdown table and generates `CONCLUSIONS.md`.
 cargo test
 ```
 
-11 tests covering conservation invariants, edge cases (empty graph, single room), and metric sanity checks.
+12 tests covering conservation invariants, edge cases (empty graph, single room), metric sanity checks, and property tests.
 
 ## Architecture
 
