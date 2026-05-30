@@ -9,6 +9,7 @@ use std::fmt;
 
 /// A perception or prediction entry in the ledger.
 #[derive(Clone, Debug)]
+#[allow(dead_code)]
 struct Entry {
     vector: Vec<f64>,
     magnitude: f64,
@@ -162,6 +163,7 @@ fn cosine_similarity(a: &[f64], b: &[f64]) -> f64 {
 // ── Benchmark Runner ──────────────────────────────────────────────────
 
 #[derive(Clone, Debug)]
+#[allow(dead_code)]
 struct BenchResult {
     dim: usize,
     window: usize,
